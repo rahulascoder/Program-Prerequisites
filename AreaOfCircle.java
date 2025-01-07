@@ -4,12 +4,12 @@ import java.lang.Math;
 class PerimeterOfRectangle{
 	public static void main(String args[]){
 		
-		System.out.println("Enter Length and Breadth of a rectangel : ");
+		System.out.println("Enter radius of a circle : ");
 		Scanner sc = new Scanner(System.in);
-		float l = sc.nextFloat();
-		float b = sc.nextFloat();
-		float peri = 2*(l+b);
-		double result = Math.round(peri *100.0)/100.0;
+		double r = sc.nextDouble();
+		
+		double area = Math.PI*Math.pow(r,2);
+		double result = Math.round(area *100.0)/100.0;
 		System.out.println(result);
 	}
 	
