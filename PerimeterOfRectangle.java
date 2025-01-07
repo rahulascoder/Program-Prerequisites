@@ -10,7 +10,7 @@ class PerimeterOfRectangle{
 		float b = sc.nextFloat();
 		float peri = 2*(l+b);
 		double result = Math.round(peri *100.0)/100.0;
-		System.out.println(result);
+		System.out.println("Perimeter of Rectangle is " +result +" cm");
 	}
 	
 }
